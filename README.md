@@ -34,12 +34,37 @@ NC-TCN/
 
 ---
 
-## Quick Start
+## Reproducing the Paper
+
+**One-command reviewer script:**
+
+```bash
+python reproduce_nctcn.py             # smoke test (clean + factory @ 0dB)
+python reproduce_nctcn.py --full      # all noise x SNR grid
+python reproduce_nctcn.py --ss        # with spectral subtraction
+python reproduce_nctcn.py --data-dir /path/to/SpeechCommands
+```
+
+The script loads `checkpoints/nc_tcn_20k_best.pt` (21,689 params), runs
+evaluation on GSC v0.02, and compares against paper-reported numbers.
+Exit code `0` = within `--tol` (default 3.0 %p); `1` = discrepancy.
+
+**Colab notebook (canonical training):**
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DrJinHoChoi/NC-TCN/blob/main/notebooks/train_nc_tcn.ipynb)
+
+**Legacy direct evaluation:**
 
 ```bash
 # Assumes Google Speech Commands v0.02 at data/SpeechCommands/
 python eval/eval_nctcn.py
 ```
+
+## License
+
+Dual-licensed: academic (non-commercial) free; commercial requires a
+separate license. See [LICENSE](LICENSE) and [COMMERCIAL_LICENSE.md](COMMERCIAL_LICENSE.md).
+Commercial inquiries: `jinhochoi@smartear.co.kr`.
 
 ---
 
