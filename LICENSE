@@ -1,7 +1,6 @@
-Mamba-COP-RL / IronDome-DOA-Tracking
-Dual License: Academic (Non-Commercial) + Commercial
+NC-TCN — Dual License: Academic (Non-Commercial) + Commercial
 
-Copyright (c) 2026 Jin Ho Choi, SmartEAR
+Copyright (c) 2026 Jin Ho Choi, SmartEAR / NanoAgentic AI
 
 -------------------------------------------------------------------------------
 1. ACADEMIC / NON-COMMERCIAL LICENSE
@@ -17,13 +16,8 @@ to the following conditions:
       included in all copies or substantial portions of the Software.
 
   (b) Any academic publication, preprint, thesis, or public presentation
-      that uses or derives from this Software shall cite:
-
-        J. H. Choi, "Noise-Conditional Temporal Convolutional
-        Networks for Robust On-Device Keyword Spotting," Proc.
-        ICASSP, 2027 (submitted); also MLSP 2026 workshop version.
-
-        Built on NC-SSM / NanoMamba backbone (see NC-SSM-TASLP2026).
+      that uses or derives from this Software shall cite the relevant
+      paper(s) listed in the repository README, when applicable.
 
   (c) Modifications must be clearly marked as such and must not be
       misrepresented as the original Software.
@@ -58,9 +52,9 @@ must be obtained BEFORE such activity begins.
 
 To request a commercial license, contact:
 
-    Dr. Jin Ho Choi — SmartEAR
+    Dr. Jin Ho Choi — SmartEAR / NanoAgentic AI
     Email:   jinhochoi@smartear.co.kr
-    Subject: [Mamba-COP-RL Commercial License] <your organization>
+    Subject: [NC-TCN Commercial License] <your organization>
 
 See COMMERCIAL_LICENSE.md for commercial licensing terms, tiers, and
 pricing framework.
@@ -69,12 +63,12 @@ pricing framework.
 3. PATENT NOTICE
 -------------------------------------------------------------------------------
 
-Technologies embodied in this Software are subject to pending patent
+Technologies embodied in this Software may be subject to pending patent
 applications in the Republic of Korea and the United States (NanoMamba /
-NC-SSM family, and COP-RFS tracking framework). The Academic License does
-not grant any patent rights for commercial exploitation. Commercial patent
-rights are granted only through a Commercial License executed with the
-copyright holder.
+NC-SSM / NC-Conv-SSM family, and COP-RFS tracking framework). The Academic
+License does not grant any patent rights for commercial exploitation.
+Commercial patent rights are granted only through a Commercial License
+executed with the copyright holder.
 
 -------------------------------------------------------------------------------
 4. DISCLAIMER
