@@ -1,4 +1,4 @@
-# Commercial License — Mamba-COP-RL / IronDome-DOA-Tracking
+# Commercial License — NC-TCN
 
 This document describes commercial licensing terms for the software in this
 repository. For the academic (non-commercial) license, see [LICENSE](LICENSE).
@@ -11,15 +11,15 @@ You MUST obtain a Commercial License before any of the following activities:
 
 | Activity | Requires Commercial License |
 |---|---|
-| Academic research, publication, thesis | ❌ No (Academic License covers) |
-| Teaching, classroom demonstration | ❌ No |
-| Reproducing benchmarks published in the paper | ❌ No |
-| Incorporation into a commercial product / SaaS | ✅ Yes |
-| Internal use at a for-profit company (production) | ✅ Yes |
-| Defense / aerospace / industrial deployment | ✅ Yes |
-| FPGA / ASIC / MCU hardware implementation for sale | ✅ Yes |
-| Redistribution inside a commercial bundle | ✅ Yes |
-| Commercialization of downstream academic work | ✅ Yes |
+| Academic research, publication, thesis | No (Academic License covers) |
+| Teaching, classroom demonstration | No |
+| Reproducing benchmarks published in the paper | No |
+| Incorporation into a commercial product / SaaS | Yes |
+| Internal use at a for-profit company (production) | Yes |
+| Defense / aerospace / industrial deployment | Yes |
+| FPGA / ASIC / MCU hardware implementation for sale | Yes |
+| Redistribution inside a commercial bundle | Yes |
+| Commercialization of downstream academic work | Yes |
 
 **Note on academic-to-commercial path.** If your project starts under the
 Academic License (thesis, grant-funded research, open-source exploration)
@@ -60,11 +60,12 @@ Final pricing is negotiated case-by-case. Indicative tiers:
 
 ## 3. Patent Scope
 
-A Commercial License includes a field-of-use patent grant covering the
-pending patents listed below, limited to the licensed product scope:
+A Commercial License may include a field-of-use patent grant covering the
+pending patents listed below, when applicable to the software in this
+repository, limited to the licensed product scope:
 
-- **NanoMamba / NC-SSM** — Noise-Conditioned State Space Models
-  (KR + US pending)
+- **NanoMamba / NC-SSM / NC-Conv-SSM** — Noise-Conditioned State Space
+  Models (KR + US pending)
 - **COP-RFS Tracking** — Cumulant-based DOA + GM-PHD integration
   (KR pending)
 
@@ -84,9 +85,9 @@ The Academic License grants **no** commercial patent rights.
 
 All commercial license inquiries:
 
-> **Dr. Jin Ho Choi** — SmartEAR, Seoul, Republic of Korea
+> **Dr. Jin Ho Choi** — SmartEAR / NanoAgentic AI, Seoul, Republic of Korea
 > Email: **jinhochoi@smartear.co.kr**
-> Subject line: `[Mamba-COP-RL Commercial License] <your organization>`
+> Subject line: `[NC-TCN Commercial License] <your organization>`
 
 Please include in your first email:
 1. Organization name and country of incorporation.
@@ -102,28 +103,10 @@ A written NDA can be executed before detailed technical discussion.
 ## 6. Attribution (Required Under Both Licenses)
 
 Any academic publication, technical report, or product documentation that
-uses this software must cite:
-
-```bibtex
-@article{choi2026mambacoprl,
-  author  = {Jin Ho Choi},
-  title   = {When Does Temporal Memory Help? Selective SSM vs. MLP in
-             RL-Based Multi-Target DOA Track Management},
-  journal = {IEEE Signal Processing Letters},
-  year    = {2026},
-  note    = {submitted}
-}
-
-@article{choi2026irondome,
-  author  = {Jin Ho Choi},
-  title   = {Underdetermined High-Resolution DOA Estimation and
-             Multi-Target Tracking via COP-RFS},
-  journal = {IEEE Transactions on Signal Processing},
-  year    = {2026},
-  note    = {submitted}
-}
-```
+uses this software shall cite the relevant paper(s) listed in the
+repository README, when applicable. If no paper is listed, please cite the
+repository URL and the copyright holder.
 
 ---
 
-_Last updated: 2026-04-22_
+_Last updated: 2026-04-25_
